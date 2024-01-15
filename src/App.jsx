@@ -17,7 +17,7 @@ function App() {
       )}
       <Unity
         unityProvider={unityProvider}
-        style={{ visibility: isLoaded ? "visible" : "hidden", borderLeft: '5px solid #306FA5', borderRight: '5px solid #306FA5', height: window.innerHeight, width: window.innerWidth }}
+        style={{ visibility: isLoaded ? "visible" : "hidden", aspectRatio: "16 / 9", height: window.innerHeight, width: window.innerWidth }}
       />
     </div>
   );
